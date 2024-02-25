@@ -155,7 +155,7 @@ UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 
 -- Scripts:
 
-local function ZIIJUN_fake_script() -- PC.LocalScript 
+local function HSXJS_fake_script() -- PC.LocalScript 
 	local script = Instance.new('LocalScript', PC)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -170,8 +170,8 @@ local function ZIIJUN_fake_script() -- PC.LocalScript
 	
 	
 end
-coroutine.wrap(ZIIJUN_fake_script)()
-local function CCUY_fake_script() -- Mobile.LocalScript 
+coroutine.wrap(HSXJS_fake_script)()
+local function UAKLWS_fake_script() -- Mobile.LocalScript 
 	local script = Instance.new('LocalScript', Mobile)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -186,8 +186,8 @@ local function CCUY_fake_script() -- Mobile.LocalScript
 	
 	
 end
-coroutine.wrap(CCUY_fake_script)()
-local function NZDFVD_fake_script() -- Close.LocalScript 
+coroutine.wrap(UAKLWS_fake_script)()
+local function DDEGRR_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -198,4 +198,4 @@ local function NZDFVD_fake_script() -- Close.LocalScript
 	
 	end)
 end
-coroutine.wrap(NZDFVD_fake_script)()
+coroutine.wrap(DDEGRR_fake_script)()
